@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Grasping Object Relationships"
-date:       2018-10-21 16:46:06 +0000
+date:       2018-10-21 12:46:07 -0400
 permalink:  grasping_object_relationships
 ---
 
@@ -73,14 +73,14 @@ class Team
 	
 	def initialize(name:, team: nil)
 	  @players = []
-		@team = team
-		@name = name
- end
+	  @team = team
+	  @name = name
+    end
 
 
- def  add_player(player)
-    players << player
- end
+   def  add_player(player)
+      players << player
+   end
  
 end
 ```
@@ -99,12 +99,12 @@ For the relationship of the fan to the team would be very similar to the player 
 ```
 class Team
 ….
-  def initialize(name:, owner: nil)
-    @fans = []
-    @players = []
-		@owner = owner
-		@name = name
-  end
+   def initialize(name:, owner: nil)
+     @fans = []
+     @players = []
+	 @owner = owner
+	 @name = name
+    end
 
   def add_fan(fan)
      fans << fan 
@@ -122,10 +122,10 @@ class Fan
 
   def initialize(name:, fav_team:, email: nil) 
     @teams = []
-		@players = []
-		@name = name
-		@email = email
-		add_team(fav_team)
+	@players = []
+	@name = name
+	@email = email
+	add_team(fav_team)
   end 
 
   def add_team(team)
