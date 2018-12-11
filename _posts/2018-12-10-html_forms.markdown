@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "HTML Forms"
-date:       2018-12-11 03:45:35 +0000
+date:       2018-12-10 22:45:36 -0500
 permalink:  html_forms
 ---
 
@@ -49,7 +49,7 @@ The **input** element is a diverse element, because it can specify many differen
 ```
 
 
-The type attribute of this input element is very dynamic. In the example above it indicates ‘text’, and a text box will appear and the user can type in their data. The value of the input is what the user types in. The form above also has a type attribute that indicates ‘submit’, which will display a button that the user can push when they are done to submit the form. Other type attributes include: ‘button’, ‘password’, ‘tel’, ‘hidden’, ‘radio’, ‘checkbox’, ‘number’, ‘range’, ‘submit’, ‘date’, ‘datetime-local’, ‘email’, ‘color’, ‘file’, ‘image’, ‘month’, ‘reset’, ‘search’, ‘time’, ‘url’, ‘week’. Different types can be used in different contexts to get information we need for our application.
+The type attribute of this input element is very dynamic. In the example above it indicates ‘text’, and a text box will appear and the user can type in their data. The value of the input is what the user types in. The form above also has a type attribute that indicates ‘submit’, which will display a button that the user can push when they are done to submit the form. Other type attributes include: ‘button’, ‘password’, ‘tel’, ‘hidden’, ‘radio’, ‘checkbox’, ‘number’, ‘range’, ‘submit’, ‘date’, ‘datetime-local’, ‘email’, ‘color’, ‘file’, ‘image’, ‘month’, ‘reset’, ‘search’, ‘time’, ‘url’, ‘week’. Different types can be used in different contexts to get vaireties of information.
 
 Having menus that users can select from is a common technique that can be user-friendly. When creating options, the values are assigned and then presented to the user in a list to pick from. This design can make it easier because it cuts down on having the user type in text, and the values can be made specific. The drawback is that it may not have the options that user wants, and there is no way for them to specify. 
 
@@ -66,7 +66,7 @@ When using the input element, we can use two popular type attributes: ‘radio�
 ```
 
 
-Using the type attribute radio will display a list of options. The options are headings with a little circle dot that you can click on to select the option. So for the HTML above there will be 3 options that you can pick from to indicate what your dominant hand. The type attribute ‘radio’ will only allow you to select one option though. This can limit it’s use, especially for lists that might involve you selecting multiple items. If we wanted to represent a list with the capability to select multiple items, we could use the input element with type attribute ‘checkbox’.
+Using the type attribute radio will display a list of options. The options are headings with a little circle dot that you can click on to select the option. So for the HTML above there will be 3 options that you can pick from to indicate your dominant hand. The type attribute ‘radio’ will only allow you to select one option though. This can limit it’s use, especially for lists that might involve you selecting multiple items. If we wanted to represent a list with the capability to select multiple items, we could use the input element with type attribute ‘checkbox’.
 
 ```
       <h2>How Do You Exercise?</h2>
@@ -153,7 +153,7 @@ For entering small amounts of text using the input element with type attribute e
 
 
 
-</br>
+
 Source:
 1. https://www.w3schools.com/tags/tag_input.asp
 2. https://www.w3schools.com/html/html_form_elements.asp
